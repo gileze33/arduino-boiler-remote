@@ -45,21 +45,5 @@ void loop() {
     }
   }
   delay(100);
-
-
-
-  // delete below here
-
-  // delay(5000);
-  // Serial.println("About to send on signal");
-  // delay(1000);
-  // demandHeat(true);
-  // Serial.println("Sent on signal");
-  
-  // delay(5000);
-  // Serial.println("About to send off signal");
-  // delay(1000);
-  // demandHeat(false);
-  // Serial.println("Sent off signal");
 }
 
