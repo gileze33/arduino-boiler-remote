@@ -1,7 +1,7 @@
 #include "heat.h"
 
 int rfPin = 4;
-int ledPin = 15;
+int ledPin = 6;
 
 // float sampleMicrosecondsLength = 22.7; // 44100hz
 float sampleMicrosecondsLength = 22.6; // 44100hz
