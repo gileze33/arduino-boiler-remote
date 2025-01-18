@@ -3,7 +3,6 @@
 int rfPin = 4;
 int ledPin = 6;
 
-// float sampleMicrosecondsLength = 22.7; // 44100hz
 float sampleMicrosecondsLength = 22.6; // 44100hz
 
 Bit preambleBit = { 204, HIGH, 'P' };
@@ -13,6 +12,7 @@ Bit longSpacerBit = { 39, LOW, 'L' };
 Bit groupSpacerBit = { 1195, LOW, ' ' };
 int repeatDelaySamples = 824;
 
+/** @public */
 void setupHeat() {
   pinMode(ledPin, OUTPUT);
   pinMode(rfPin, OUTPUT);

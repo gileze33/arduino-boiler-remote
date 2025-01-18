@@ -17,10 +17,6 @@ struct Sequence {
   Bit* bits;
 };
 
-// Function prototypes
-void sendBit(Bit bit);
-Sequence buildSequence(char sequenceInput[]);
-void sendSequence(Bit sequence[], int len, int repeats);
 void demandHeat(bool on);
 
 #endif
